@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body{
+  background-color: #171717;
+  min-height: 100vh;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+header .logo{
+  font-size: 2rem;
+  font-weight: 700;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 6% 2rem;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  padding: 1rem 6% 2rem;
+}
+
+header ul li{
+  list-style: none;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: #b9b9b9;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+  color: #fff;
+}
+
+section{
+  padding-top: 11%;
+  padding-left: 7rem;
+  padding-right: 8.7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+section .content{
+  max-width: 47rem;
+}
+
+section .content h2{
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+section .content h2 b{
+  color: #0f0;
+  font-weight: 800;
+}
+
+section .content p{
+  color: #999;
+  font-size: 1.3rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem; 
+  margin: 1rem 0 3rem;
+  
+}
+
+section .content a{
+  text-decoration: none;
+  border-radius: 2rem;
+  color: #222;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+section .container{
+  position: relative;
+  min-width: 25rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .container .element{
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgb(188, 255, 188);
+  position: relative;
+  scale: 0.75;
+}
